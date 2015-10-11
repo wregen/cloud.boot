@@ -4,7 +4,7 @@ route
 set boot_nam 4clouds.io/cloud.boot
 set boot_srv http://${boot_nam}
 
-kernel ${boot_srv}/kiosk/boot/vmlinuz http_server=4clouds.io:80/cloud.boot/kiosk/
+kernel ${boot_srv}/kiosk/boot/vmlinuz http_server=4clouds.io:80/cloud.boot/kiosk
 initrd ${boot_srv}/kiosk/boot/initrd.xz 
 initrd ${boot_srv}/kiosk/boot/pxelinux.cfg/initrdpxe.xz
 boot
