@@ -1,0 +1,7 @@
+timeout 0
+prompt 0
+default pxe
+
+label pxe
+kernel vmlinuz
+append initrd=initrd.xz,pxelinux.cfg/initrdpxe.xz quiet http_server=
