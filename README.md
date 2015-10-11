@@ -8,7 +8,7 @@ In order to perfor this demo, you need to have VirtualBox (I am using v.5) insta
 3. Create new VirtualBox VM, it can be made without a HDD, but ipxe-4clouds-boot.iso should be mounted to the VM's DVD drive.
 4. Once mounted it will start IPEX bootloaded, which will load Porteus Kiosk LiveCD linux from the github and start it.
 
-[![Booting from github](http://img.youtube.com/vi/nqMk_LYQsXQ/0.jpg)](https://www.youtube.com/watch?v=nqMk_LYQsXQ)
+[![Booting from github](https://raw.githubusercontent.com/4clouds/cloud.boot/gh-pages/yt.jpg)](https://www.youtube.com/watch?v=nqMk_LYQsXQ)
 
 
 
